@@ -36,14 +36,20 @@ export default function FloatingContact() {
         transition={{ duration: 0.3 }}
       >
         {/* Horizontal Floating Contact Bar */}
-        <div className="bg-gray-800/90 backdrop-blur-sm border border-gray-700 rounded-full px-6 py-3 shadow-2xl">
+        <div className="rounded-full px-6 py-3 shadow-2xl backdrop-blur-sm border"
+             style={{
+               backgroundColor: 'var(--bg-glass)',
+               borderColor: 'var(--border-primary)',
+               boxShadow: 'var(--shadow-secondary)'
+             }}>
           <div className="flex items-center space-x-6">
             {/* GitHub */}
             <a
               href="https://github.com/anirudhpratap345"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white transition-colors duration-200 group"
+              className="transition-colors duration-200 group"
+              style={{ color: 'var(--text-secondary)' }}
               aria-label="GitHub"
             >
               <div className="w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -58,7 +64,8 @@ export default function FloatingContact() {
               href="https://www.linkedin.com/in/anirudh-pratap-singh-4a30741a9/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white transition-colors duration-200 group"
+              className="transition-colors duration-200 group"
+              style={{ color: 'var(--text-secondary)' }}
               aria-label="LinkedIn"
             >
               <div className="w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -73,7 +80,8 @@ export default function FloatingContact() {
               href="https://x.com/Anirudhpratap77"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white transition-colors duration-200 group"
+              className="transition-colors duration-200 group"
+              style={{ color: 'var(--text-secondary)' }}
               aria-label="X (Twitter)"
             >
               <div className="w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -84,7 +92,8 @@ export default function FloatingContact() {
             </a>
 
             {/* More Options (Ellipsis) */}
-            <div className="text-gray-300 hover:text-white transition-colors duration-200 group cursor-pointer">
+            <div className="transition-colors duration-200 group cursor-pointer"
+                 style={{ color: 'var(--text-secondary)' }}>
               <div className="w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
@@ -95,7 +104,8 @@ export default function FloatingContact() {
             {/* Email */}
             <a
               href="mailto:anirudhpratap006@gmail.com"
-              className="text-gray-300 hover:text-white transition-colors duration-200 group"
+              className="transition-colors duration-200 group"
+              style={{ color: 'var(--text-secondary)' }}
               aria-label="Email"
             >
               <div className="w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -108,7 +118,8 @@ export default function FloatingContact() {
             {/* RSS Feed */}
             <a
               href="#"
-              className="text-gray-300 hover:text-white transition-colors duration-200 group"
+              className="transition-colors duration-200 group"
+              style={{ color: 'var(--text-secondary)' }}
               aria-label="RSS Feed"
             >
               <div className="w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform">
