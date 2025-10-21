@@ -13,13 +13,12 @@ interface Project {
 const projects: Project[] = [
   {
     name: 'PMarchitect.ai',
-    description: 'A tool that helps PMs and EMs quickly compare ML models (like CNNs vs Transformers) on cost, speed, and feasibility to make faster, informed architecture decisions.',
+    description: 'An AI-powered platform that helps founders, product managers, and engineers compare technologies or ideas across key metrics (performance, cost, scalability, etc.) and generate clear, data-backed recommendations instantly.',
     link: 'https://pm-architect-ai.vercel.app/'
   },
   {
     name: 'FinIQ.ai',
-    description: 'An AI-powered assistant that helps founders turn startup ideas into complete MVP blueprints with tech stacks, APIs, and execution plans — making product planning faster and easier.',
-    status: 'In Progress',
+    description: 'An AI-powered financial copilot that generates personalized funding strategies and investor insights for startups.',
     link: 'https://fin-iq-ai.vercel.app/'
   }
 ]
