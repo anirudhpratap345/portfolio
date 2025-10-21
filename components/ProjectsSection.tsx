@@ -14,13 +14,13 @@ const projects: Project[] = [
   {
     name: 'PMarchitect.ai',
     description: 'A tool that helps PMs and EMs quickly compare ML models (like CNNs vs Transformers) on cost, speed, and feasibility to make faster, informed architecture decisions.',
-    link: 'https://pmarchitect.vercel.app/'
+    link: 'https://pm-architect-ai.vercel.app/'
   },
   {
-    name: 'FoundryStack',
+    name: 'FinIQ.ai',
     description: 'An AI-powered assistant that helps founders turn startup ideas into complete MVP blueprints with tech stacks, APIs, and execution plans — making product planning faster and easier.',
     status: 'In Progress',
-    link: '#'
+    link: 'https://fin-iq-ai.vercel.app/'
   }
 ]
 
