@@ -8,7 +8,10 @@ const skills = [
   { name: 'TypeScript', icon: '📘', category: 'Language' },
   { name: 'Supabase', icon: '🔥', category: 'Database' },
   { name: 'PyTorch', icon: '🧠', category: 'AI/ML' },
-  { name: 'AWS', icon: '☁️', category: 'Cloud' }
+  { name: 'AWS', icon: '☁️', category: 'Cloud' },
+  { name: 'Redis', icon: '🔴', category: 'Database' },
+  { name: 'Render', icon: '🚀', category: 'Cloud' },
+  { name: 'FastAPI', icon: '⚡', category: 'Backend' }
 ]
 
 const categories = ['All', 'Frontend', 'Backend', 'AI/ML', 'Cloud', 'Database', 'Language']
